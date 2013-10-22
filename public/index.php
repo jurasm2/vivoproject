@@ -15,7 +15,7 @@ if (($vivo_home = getenv('VIVO_HOME')) && is_dir($vivo_home)) {
 	}
 }
 if (!class_exists('Vivo\Application')) {
-	trigger_error('Unable to load Vivo. Run `php composer.phar install` or define a VIVO_HOME environment variable pointing to vivo directory.', E_USER_ERROR);
+	trigger_error('Unable to load Vivo. Run `composer install` or define a VIVO_HOME environment variable pointing to existing vivo directory.', E_USER_ERROR);
 } else {
 	$app = new Vivo\Application();
 	$app->run();

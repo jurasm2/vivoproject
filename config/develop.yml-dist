@@ -1,0 +1,3 @@
+dsn: mysql://developer:@localhost/projectname
+cms:
+  indexer.host: localhost
