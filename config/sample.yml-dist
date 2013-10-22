@@ -1,0 +1,10 @@
+dsn: mysql://developer:@localhost/vivo
+cms:
+  indexer.host: localhost
+com:
+  local:
+    app/component1: 
+      class: VivoProject\COM\Component1
+      allow_remote: true
+    app/component2: 
+      class: VivoProject\COM\Component2

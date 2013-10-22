@@ -1,0 +1,16 @@
+{
+    "name": "lundegaard/vivoapp",
+    "description": "Vivo CMS",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "php",
+        "cms"
+    ],
+    "homepage": "https://github.com/lundegaard/vivoapp",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/yaml": "v2.3.5", 
+        "smarty/smarty": "v3.1.11",
+        "doctrine/orm": "2.1.5"
+    }
+}
