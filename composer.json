@@ -1,6 +1,6 @@
 {
-    "name": "lundegaard/vivoapp",
-    "description": "Vivo CMS",
+    "name": "lundegaard/vivoproject",
+    "description": "Vivo project template",
     "license": "BSD-3-Clause",
     "keywords": [
         "php",
